@@ -95,8 +95,8 @@ data before migration work.
 - Never publish `.env`, provider keys, SMTP credentials, database passwords, JWTs,
   or verification/reset tokens.
 - `SECRET_KEY` must contain at least 32 characters.
-- Keep `OLLAMA_AUTO_PULL=false` for the packaged local model because it is created
-  locally rather than pulled from the Ollama registry.
+- Keep `OLLAMA_AUTO_PULL=false` for the fine-tuned local model. The setup script
+  manages its GGUF download; backend startup should not trigger large downloads.
 - CORS origins must include the actual frontend origin.
 
 ## Runtime data and logs

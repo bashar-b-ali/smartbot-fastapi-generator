@@ -1,25 +1,31 @@
 ﻿# fastAPI_Model 3B Runtime Package
 
-This folder contains the local 3B FastAPI generation model package used by the backend evaluation setup.
+This folder contains the setup for the local 3B FastAPI generation model used by
+the backend.
 
-Normal application users only need to register the included model with Ollama.
+Normal application users only need to run the platform setup script. It downloads
+the public fine-tuned GGUF from Google Drive and registers it with Ollama.
 Dataset building and training are separate, optional workflows. For complete
 application installation, begin with the [root README](../README.md).
 
 ## Requirements
 
-- Ollama for using the packaged GGUF model.
+- Ollama for running the model.
 - Python 3.11+ for dataset preparation/validation utilities.
 - `PyGithub` and a minimally scoped `GITHUB_TOKEN` only for GitHub repository discovery.
 - A suitable GPU or hosted notebook environment is strongly recommended for training.
 
-## Included artifact
+## Model distribution
 
-- `models/fastAPI_Model/fastAPI_Model.Q4_K_M.gguf`
+- Public source: [fine-tuned GGUF on Google Drive](https://drive.google.com/file/d/1d4J7nO7Z1GT8S1v1_9eHlcx-UGRLx7Tb/view)
+- Local artifact: `models/fastAPI_Model/fastAPI_Model.Q4_K_M.gguf`
 - Base architecture: Qwen2.5 Coder 3B
 - Quantization: Q4_K_M
 - Ollama runtime model name: `fastAPI_Model`
 - Context configured by Modelfile: `8192`
+
+Review and comply with the base model's license and the licenses of the training
+data before redistributing or using the fine-tuned weights.
 
 ## Create the Ollama model
 
@@ -29,12 +35,18 @@ From this folder:
 .\setup_fastAPI_Model.ps1
 ```
 
-Or manually:
+On Linux or macOS:
 
-```powershell
-ollama create fastAPI_Model -f Modelfile.fastAPI_Model
-ollama run fastAPI_Model
+```sh
+chmod +x setup_fastAPI_Model.sh
+./setup_fastAPI_Model.sh
 ```
+
+The first run downloads about 1.8 GB. Interrupted downloads resume from the
+`.part` file. To use an existing GGUF without a network connection, run the
+PowerShell script with `-Offline` or the shell script with `--offline`.
+
+After either setup path, test with `ollama run fastAPI_Model`.
 
 ## Backend configuration
 
@@ -64,19 +76,23 @@ The notebooks in this folder are aligned to this package name and base model:
 - `colab_qwen_lora_training.ipynb`
 - `colab_qwen_lora_training_max.ipynb`
 
-They document the dataset and optional LoRA/merge/export workflow for the FastAPI backend-generation task. The included GGUF is the ready-to-run local model artifact used by the project runtime.
+They document the dataset and optional LoRA/merge/export workflow for the FastAPI
+backend-generation task. The public Google Drive GGUF contains the current
+ready-to-run fine-tuned weights used by the project runtime.
 
 ## Folder layout
 
 ```text
-models/fastAPI_Model/       Ready-to-run quantized GGUF and manifest
+models/fastAPI_Model/       Manifest and downloaded fine-tuned GGUF
 training_data/              Runtime-protocol training/evaluation JSONL
 reports/                    Evaluation results, predictions, and loss history
 fastAPI_dataset_build/      Optional repository discovery and dataset utilities
 train.ipynb                 Optional training/export workflow
 MODEL_CARD.md               Model purpose, limitations, and evaluation context
 training_protocol.json      Versioned task/lifecycle contract
-setup_fastAPI_Model.ps1     Validates and registers the GGUF with Ollama
+setup_fastAPI_Model.ps1     Windows public/offline installer
+setup_fastAPI_Model.sh      Linux/macOS public/offline installer
+download_model.py           Resumable Drive downloader and validator
 ```
 
 ## Runtime-aligned training contract
@@ -92,10 +108,9 @@ Validate a prepared multi-task JSONL before training:
 python validate_runtime_dataset.py training_data\runtime_protocol_seed.jsonl --require-all-tasks
 ```
 
-`setup_fastAPI_Model.ps1` verifies the GGUF size and SHA-256 before registering
-it with Ollama. A successful validation means the package is internally
-consistent; it does not prove that the included GGUF has received the new
-multi-task fine-tuning.
+The setup path verifies the GGUF size and signature and reports its SHA-256 before
+registering it with Ollama. The manifest records the public Drive file ID and the
+authoritative artifact size.
 
 ## Optional dataset-building workflow
 
@@ -127,7 +142,7 @@ before training.
 ## Related documentation
 
 - [System requirements](../REQUIREMENTS.md)
-- [Full setup guide](../docs/SETUP_GUIDE.md)
-- [Developer guide](../docs/DEVELOPER_GUIDE.md)
-- [Troubleshooting](../docs/TROUBLESHOOTING.md)
+- [Full setup guide](../project-docs/SETUP_GUIDE.md)
+- [Developer guide](../project-docs/DEVELOPER_GUIDE.md)
+- [Troubleshooting](../project-docs/TROUBLESHOOTING.md)
 - [Model card](MODEL_CARD.md)

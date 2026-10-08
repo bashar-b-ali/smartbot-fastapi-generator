@@ -39,13 +39,8 @@ refused usually means the host, port, or MySQL service is wrong.
 
 ## `fastAPI_Model` is missing
 
-Confirm Ollama is running and the GGUF exists at:
-
-```text
-bot-training/models/fastAPI_Model/fastAPI_Model.Q4_K_M.gguf
-```
-
-Then rerun:
+Confirm Ollama is running, then rerun the public installer (internet access is
+required for the first download):
 
 ```powershell
 cd .\bot-training
@@ -53,8 +48,17 @@ cd .\bot-training
 ollama list
 ```
 
-The setup script validates the local artifact before registering it. Do not enable
-`OLLAMA_AUTO_PULL` for this locally packaged model.
+On Linux or macOS, run `./setup_fastAPI_Model.sh` instead.
+
+For a network-free install, confirm the GGUF exists at:
+
+```text
+bot-training/models/fastAPI_Model/fastAPI_Model.Q4_K_M.gguf
+```
+
+Then rerun the platform script with `-Offline` or `--offline`. The setup script
+validates the local artifact before registering it. Keep `OLLAMA_AUTO_PULL=false`;
+model installation is intentionally separate from backend startup.
 
 ## Ollama is slow or runs out of memory
 

@@ -7,7 +7,7 @@ development, testing, or model training.
 
 | Software | Recommended baseline | Used by | Check command |
 | --- | --- | --- | --- |
-| Windows 10/11 with PowerShell | Current supported release | Included setup scripts and commands | `$PSVersionTable.PSVersion` |
+| Windows 10/11 with PowerShell, or Linux/macOS with a POSIX shell | Current supported release | Included setup scripts and commands | `$PSVersionTable.PSVersion` or `sh --version` |
 | Python | 3.11 or newer | Backend | `python --version` |
 | Node.js | 18 LTS or newer | Frontend | `node --version` |
 | npm | Included with Node.js | Frontend | `npm --version` |
@@ -17,15 +17,21 @@ development, testing, or model training.
 The backend formally declares Python `>=3.11`. Use a supported 64-bit Python
 installation and ensure both Python and Node.js are available in PowerShell.
 
-## Included files
+## Model download
 
-The default local setup expects this file to remain in place:
+The default setup downloads the project's fine-tuned GGUF from its public Google
+Drive file (about 1.8 GB), validates it, and creates the `fastAPI_Model` Ollama
+model locally. The large binary is kept outside Git.
+
+For a fully offline install, place the optional artifact at:
 
 ```text
 bot-training/models/fastAPI_Model/fastAPI_Model.Q4_K_M.gguf
 ```
 
-It is the ready-to-run quantized model. Training the model again is not required.
+Then pass `-Offline` (PowerShell) or `--offline` (POSIX shell) to the setup script.
+The script verifies the exact size and GGUF signature and reports the SHA-256.
+Training is not required for either installation path.
 
 ## Hardware and disk guidance
 
@@ -33,9 +39,9 @@ It is the ready-to-run quantized model. Training the model again is not required
 - At least 8 GB RAM; 16 GB or more is recommended when running the frontend,
   backend, MySQL, and Ollama together.
 - Several gigabytes of free disk space for Python packages, `node_modules`, the
-  included GGUF, generated projects, logs, and database data.
+  Ollama model cache, generated projects, logs, and database data.
 - A GPU is optional. Ollama can run on the CPU, but generation will be slower.
-- More memory may be needed for the configured `OLLAMA_NUM_CTX=32768` context.
+- More memory may be needed for the configured `OLLAMA_NUM_CTX=8192` context.
   If the machine cannot sustain it, consult the troubleshooting guide before
   lowering it because smaller contexts can reduce code-generation quality.
 

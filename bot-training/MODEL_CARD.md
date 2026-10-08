@@ -6,17 +6,18 @@
 
 ## Runtime Artifact
 
-- File: `models/fastAPI_Model/fastAPI_Model.Q4_K_M.gguf`
+- Distribution: [public Google Drive GGUF](https://drive.google.com/file/d/1d4J7nO7Z1GT8S1v1_9eHlcx-UGRLx7Tb/view)
+- Local file: `models/fastAPI_Model/fastAPI_Model.Q4_K_M.gguf`
 - Runtime name: `fastAPI_Model`
 - Family: Qwen2.5 Coder
 - Parameters: 3B class
 - Quantization: Q4_K_M
 - Context setting: 8192 tokens
-- Fine-tuned weights: no; the current GGUF is the packaged base-model artifact
+- Fine-tuned weights: yes; the Google Drive GGUF is the authoritative artifact
 
-The runtime name and Modelfile specialize prompting, but they do not make the
-current GGUF a fine-tuned model. Produce and evaluate a merged/exported artifact
-before changing the manifest's `fine_tuned` field.
+The installer downloads the fine-tuned GGUF separately from the Git repository,
+validates its exact byte size and GGUF signature, reports its SHA-256, and then
+registers it with the runtime-specific Ollama Modelfile.
 
 ## System Behavior
 
@@ -38,14 +39,17 @@ Training and evaluation materials are stored in:
 - `fastAPI_dataset_build/`
 - `documentation/markdown/training_pipeline.md`
 
-The notebooks provide a LoRA training and export starting point. Before a real
-training run, expand the six-task seed into train/eval splits, validate both
-JSONL files, train, merge, export to GGUF, update the checksum, and benchmark
+The notebooks provide the LoRA training and export workflow. For subsequent
+versions, preserve train/eval splits, validate both JSONL files, train, merge,
+export to GGUF, update the manifest size and checksum, and benchmark
 create/edit/repair acceptance separately.
 
 ## Usage
 
 ```powershell
-ollama create fastAPI_Model -f Modelfile.fastAPI_Model
+.\setup_fastAPI_Model.ps1
 ollama run fastAPI_Model
 ```
+
+Use `./setup_fastAPI_Model.sh` on Linux/macOS. Both installers download the exact
+fine-tuned GGUF by default; their offline option validates an existing local copy.

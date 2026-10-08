@@ -1,7 +1,7 @@
 # Installation and Startup Guide
 
-This guide sets up the complete application on Windows using PowerShell. Run all
-commands from the project root unless a step says otherwise.
+This guide uses Windows PowerShell. Model setup also supports Linux and macOS;
+run commands from the project root unless a step says otherwise.
 
 ## 1. Verify prerequisites
 
@@ -28,6 +28,19 @@ ollama list
 ```
 
 Expected model name: `fastAPI_Model:latest`.
+
+The first run downloads the public 1.8 GB fine-tuned GGUF from Google Drive,
+validates it, and registers it with Ollama. Linux and macOS users can run:
+
+```sh
+cd bot-training
+chmod +x setup_fastAPI_Model.sh
+./setup_fastAPI_Model.sh
+```
+
+For a network-free installation, put `fastAPI_Model.Q4_K_M.gguf` in
+`bot-training/models/fastAPI_Model/` and run the PowerShell script with
+`-Offline`, or the shell script with `--offline`. The artifact is validated before use.
 
 Optional direct test:
 
@@ -89,7 +102,7 @@ DB_PASSWORD=<your MySQL password>
 LLM_PROVIDER=ollama
 LLM_MODEL=fastAPI_Model
 OLLAMA_HOST=http://localhost:11434
-OLLAMA_NUM_CTX=32768
+OLLAMA_NUM_CTX=8192
 OLLAMA_AUTO_PULL=false
 OLLAMA_AUTO_WARMUP=true
 ```

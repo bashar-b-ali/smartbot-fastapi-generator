@@ -1,0 +1,10 @@
+# The runtime model is downloaded from Google Drive and registered with Ollama.
+# Keep local/offline copies out of Git (the Q4_K_M artifact is about 1.8 GB).
+bot-training/models/**/*.gguf
+bot-training/models/**/*.gguf.*
+bot-training/models/**/drive-view.tmp.html
+
+# Python runtime artifacts.
+__pycache__/
+*.py[cod]
+

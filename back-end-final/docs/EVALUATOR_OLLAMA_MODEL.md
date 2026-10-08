@@ -9,9 +9,10 @@ The model package is stored in the sibling `../bot-training/` folder. The main f
 - `../bot-training/models/fastAPI_Model/MANIFEST.json`
 - `../bot-training/setup_fastAPI_Model.ps1`
 
-## No-Download Evaluation Package
+## Normal public installation
 
-Include `../bot-training/models/fastAPI_Model/` in the submitted package. It contains the GGUF artifact used to create `fastAPI_Model`.
+The normal installer downloads the project's public fine-tuned GGUF from Google
+Drive, validates it, and registers it with Ollama.
 
 On the evaluator machine:
 
@@ -29,13 +30,14 @@ cd ..\back-end-final
 python scripts\dev_server.py
 ```
 
-## Recreate From Included GGUF
+## No-download evaluation package
 
-The packaged model is recreated from the included GGUF and Modelfile:
+Include `../bot-training/models/fastAPI_Model/` only when the evaluator requires
+a fully offline package. The installer verifies the included GGUF before use:
 
 ```powershell
 cd ..\bot-training
-ollama create fastAPI_Model -f Modelfile.fastAPI_Model
+.\setup_fastAPI_Model.ps1 -Offline
 cd ..\back-end-final
 python scripts\dev_server.py
 ```
