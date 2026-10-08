@@ -1,0 +1,1562 @@
+{
+  "fastapi/fastapi": {
+    "n": 1,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:04:52"
+  },
+  "mouredev/Hello-Python": {
+    "n": 2,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:04:59"
+  },
+  "jina-ai/serve": {
+    "n": 3,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:06:33"
+  },
+  "Zeyi-Lin/HivisionIDPhotos": {
+    "n": 4,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:07:06"
+  },
+  "fastapi/sqlmodel": {
+    "n": 5,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:07:18"
+  },
+  "polarsource/polar": {
+    "n": 10,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:25:03"
+  },
+  "pydantic/FastUI": {
+    "n": 11,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:25:07"
+  },
+  "vastsa/FileCodeBox": {
+    "n": 12,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:25:20"
+  },
+  "nonebot/nonebot2": {
+    "n": 13,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:25:25"
+  },
+  "fastapi-users/fastapi-users": {
+    "n": 14,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:25:29"
+  },
+  "xerrors/Yuxi": {
+    "n": 15,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:25:41"
+  },
+  "remsky/Kokoro-FastAPI": {
+    "n": 16,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:26:35"
+  },
+  "strawberry-graphql/strawberry": {
+    "n": 17,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:26:40"
+  },
+  "hunvreus/devpush": {
+    "n": 18,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:26:44"
+  },
+  "chenyme/grok2api": {
+    "n": 19,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:26:49"
+  },
+  "zhinianboke/xianyu-auto-reply": {
+    "n": 20,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:26:55"
+  },
+  "dynaconf/dynaconf": {
+    "n": 21,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:27:02"
+  },
+  "JoshuaC215/agent-service-toolkit": {
+    "n": 22,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:27:07"
+  },
+  "pydantic/logfire": {
+    "n": 23,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:27:18"
+  },
+  "koxudaxi/datamodel-code-generator": {
+    "n": 24,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:27:27"
+  },
+  "Lightning-AI/LitServe": {
+    "n": 25,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:27:30"
+  },
+  "fastapi-admin/fastapi-admin": {
+    "n": 26,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:27:35"
+  },
+  "PeterH0323/Streamer-Sales": {
+    "n": 27,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:29:12"
+  },
+  "IBM/mcp-context-forge": {
+    "n": 28,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:29:31"
+  },
+  "TracecatHQ/tracecat": {
+    "n": 29,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:30:05"
+  },
+  "ml-tooling/opyrator": {
+    "n": 30,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:30:10"
+  },
+  "docarray/docarray": {
+    "n": 31,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:30:26"
+  },
+  "nsidnev/fastapi-realworld-example-app": {
+    "n": 32,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:30:29"
+  },
+  "plastic-labs/honcho": {
+    "n": 33,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:30:39"
+  },
+  "tiangolo/uvicorn-gunicorn-fastapi-docker": {
+    "n": 34,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:30:41"
+  },
+  "s3rius/FastAPI-template": {
+    "n": 35,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:30:46"
+  },
+  "smithyhq/sqladmin": {
+    "n": 36,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:30:51"
+  },
+  "Buuntu/fastapi-react": {
+    "n": 37,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:30:57"
+  },
+  "supabase/supabase-py": {
+    "n": 38,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:31:04"
+  },
+  "paulpierre/RasaGPT": {
+    "n": 39,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:31:12"
+  },
+  "dot-agent/nextpy": {
+    "n": 40,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:33:53"
+  },
+  "CJackHwang/AIstudioProxyAPI": {
+    "n": 41,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:00"
+  },
+  "fastapiutils/fastapi-utils": {
+    "n": 42,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:07"
+  },
+  "wassim249/fastapi-langgraph-agent-production-ready-template": {
+    "n": 43,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:13"
+  },
+  "fastapi-practices/fastapi-best-architecture": {
+    "n": 44,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:21"
+  },
+  "widgetti/solara": {
+    "n": 45,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:26"
+  },
+  "Kludex/mangum": {
+    "n": 46,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:29"
+  },
+  "laurentS/slowapi": {
+    "n": 47,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:34"
+  },
+  "openapi-generators/openapi-python-client": {
+    "n": 48,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:38"
+  },
+  "BetaStreetOmnis/xhs_ai_publisher": {
+    "n": 49,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:48"
+  },
+  "ycd/manage-fastapi": {
+    "n": 50,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:53"
+  },
+  "piccolo-orm/piccolo": {
+    "n": 51,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:34:57"
+  },
+  "benavlabs/FastAPI-boilerplate": {
+    "n": 52,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:35:02"
+  },
+  "long2ice/fastapi-cache": {
+    "n": 53,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:35:09"
+  },
+  "rochacbruno/python-week-2022": {
+    "n": 54,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:35:12"
+  },
+  "ormar-orm/ormar": {
+    "n": 55,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:35:21"
+  },
+  "wyeeeee/hajimi": {
+    "n": 56,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:35:30"
+  },
+  "awtkns/fastapi-crudrouter": {
+    "n": 57,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:35:34"
+  },
+  "uriyyo/fastapi-pagination": {
+    "n": 58,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:35:38"
+  },
+  "jina-ai/langchain-serve": {
+    "n": 59,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:36:21"
+  },
+  "pmh1314520/WebRPA": {
+    "n": 60,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:36:43"
+  },
+  "ExpDev07/coronavirus-tracker-api": {
+    "n": 61,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:36:47"
+  },
+  "chopratejas/headroom": {
+    "n": 62,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:37:17"
+  },
+  "amisadmin/fastapi-amis-admin": {
+    "n": 63,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:37:22"
+  },
+  "benavlabs/fastcrud": {
+    "n": 64,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:37:26"
+  },
+  "teamhide/fastapi-boilerplate": {
+    "n": 65,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:37:30"
+  },
+  "skernelx/tavily-key-generator": {
+    "n": 66,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:37:41"
+  },
+  "trallnag/prometheus-fastapi-instrumentator": {
+    "n": 67,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:37:49"
+  },
+  "koxudaxi/fastapi-code-generator": {
+    "n": 68,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:37:52"
+  },
+  "ebhy/budgetml": {
+    "n": 69,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:37:56"
+  },
+  "the-momentum/open-wearables": {
+    "n": 70,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:38:08"
+  },
+  "akfamily/aktools": {
+    "n": 71,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:38:15"
+  },
+  "slackapi/bolt-python": {
+    "n": 72,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:38:25"
+  },
+  "insistence/RuoYi-Vue3-FastAPI": {
+    "n": 73,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:38:36"
+  },
+  "vargasjona/fastapi-alembic-sqlmodel-async": {
+    "n": 74,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:38:49"
+  },
+  "zhanymkanov/fastapi_production_template": {
+    "n": 75,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:38:51"
+  },
+  "ChristopherGS/ultimate-fastapi-tutorial": {
+    "n": 76,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:38:54"
+  },
+  "guillevc/yubal": {
+    "n": 77,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:39:04"
+  },
+  "devnen/Chatterbox-TTS-Server": {
+    "n": 78,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:39:49"
+  },
+  "vstorm-co/full-stack-ai-agent-template": {
+    "n": 79,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:40:09"
+  },
+  "art049/odmantic": {
+    "n": 80,
+    "status": "error",
+    "detail": "Downloading docs/img/usage_fastapi_swagger.png (75 KB)\nError downloading object: docs/img/usage_fastapi_swagger.png (8b4ce24): Smudge error: Error downloading docs/img/usage_fastapi_swagger.png (8b4ce248fa26e05f17accc3bbadf995f5afb973fd0e6b50c2140fbcd49fec1d6): batch response: Resource not accessible by personal access token\n\nErrors logged to 'D:\\Projects\\git\\back-end-final\\fastapi_dataset\\repos\\0080_art049_odmantic.tmp\\.git\\lfs\\logs\\20260428T204015.7273499.log'.\nUse `git lfs logs last` to view ",
+    "at": "2026-04-28T20:40:15"
+  },
+  "yezz123/authx": {
+    "n": 81,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:40:19"
+  },
+  "SalesforceAIResearch/enterprise-deep-research": {
+    "n": 82,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:40:50"
+  },
+  "Ricky-7-Yan/intelligent-audit-system": {
+    "n": 83,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:40:53"
+  },
+  "Zleap-AI/SAG": {
+    "n": 84,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:41:12"
+  },
+  "sml2h3/ddddocr-fastapi": {
+    "n": 85,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:41:14"
+  },
+  "Sanjeev-Thiyagarajan/fastapi-course": {
+    "n": 86,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:41:17"
+  },
+  "developmentseed/titiler": {
+    "n": 87,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:07"
+  },
+  "blueswen/fastapi-observability": {
+    "n": 88,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:18"
+  },
+  "Dicklesworthstone/swiss_army_llama": {
+    "n": 89,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:27"
+  },
+  "Amm1rr/WebAI-to-API": {
+    "n": 90,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:31"
+  },
+  "rednafi/fastapi-nano": {
+    "n": 91,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:34"
+  },
+  "ReturnFI/Blitz": {
+    "n": 92,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:38"
+  },
+  "jwadow/kiro-gateway": {
+    "n": 93,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:42"
+  },
+  "atpuxiner/fastapi-scaff": {
+    "n": 94,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:45"
+  },
+  "viddexa/autollm": {
+    "n": 95,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:47"
+  },
+  "sabuhish/fastapi-mail": {
+    "n": 96,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:51"
+  },
+  "ajndkr/lanarky": {
+    "n": 97,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:42:54"
+  },
+  "TypeError/secure": {
+    "n": 98,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:43:01"
+  },
+  "jowilf/starlette-admin": {
+    "n": 99,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:43:09"
+  },
+  "dunossauro/fastapi-do-zero": {
+    "n": 100,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:43:23"
+  },
+  "iusztinpaul/energy-forecasting": {
+    "n": 101,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:43:28"
+  },
+  "adithya-s-k/marker-api": {
+    "n": 102,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:43:48"
+  },
+  "tsukumijima/KonomiTV": {
+    "n": 103,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:44:56"
+  },
+  "msoedov/langcorn": {
+    "n": 104,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:44:59"
+  },
+  "bitcart/bitcart": {
+    "n": 105,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:03"
+  },
+  "Soju06/codex-lb": {
+    "n": 106,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:10"
+  },
+  "cle-b/httpdbg": {
+    "n": 107,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:14"
+  },
+  "yigitkonur/api-llm-ocr": {
+    "n": 108,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:17"
+  },
+  "getludic/ludic": {
+    "n": 109,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:24"
+  },
+  "feldroy/air": {
+    "n": 110,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:32"
+  },
+  "Aeternalis-Ingenium/FastAPI-Backend-Template": {
+    "n": 111,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:36"
+  },
+  "PythonNest/PyNest": {
+    "n": 112,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:41"
+  },
+  "DeanWay/fastapi-versioning": {
+    "n": 113,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:44"
+  },
+  "triton-inference-server/pytriton": {
+    "n": 114,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:49"
+  },
+  "JMS1717/8mb.local": {
+    "n": 115,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:45:58"
+  },
+  "baoliay2008/lccn_predictor": {
+    "n": 116,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:46:06"
+  },
+  "aegra/aegra": {
+    "n": 117,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:46:12"
+  },
+  "IndominusByte/fastapi-jwt-auth": {
+    "n": 118,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:46:14"
+  },
+  "maxrdu/fastapi_login": {
+    "n": 119,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:46:17"
+  },
+  "felipeall/resumeio-to-pdf": {
+    "n": 120,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:46:20"
+  },
+  "fastapi-mvc/fastapi-mvc": {
+    "n": 121,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:46:26"
+  },
+  "danny-avila/rag_api": {
+    "n": 122,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:46:29"
+  },
+  "panaverse/learn-generative-ai": {
+    "n": 123,
+    "status": "error",
+    "detail": "fatal: cannot create directory at '02_python_crash_course/python_crash_course_book_code_with_typing/chapter_09/partial_programs/importing_classes/importing_1_storing_multiple_classes_in_a_module': Filename too long\nwarning: Clone succeeded, but checkout failed.\nYou can inspect what was checked out with 'git status'\nand retry with 'git restore --source=HEAD :/'",
+    "at": "2026-04-28T20:47:23"
+  },
+  "ClimenteA/flaskwebgui": {
+    "n": 124,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:47:27"
+  },
+  "long2ice/fastapi-limiter": {
+    "n": 125,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:47:30"
+  },
+  "drmingler/docling-api": {
+    "n": 126,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:47:40"
+  },
+  "litestar-org/advanced-alchemy": {
+    "n": 127,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:48:41"
+  },
+  "mfreeborn/fastapi-sqlalchemy": {
+    "n": 128,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:48:44"
+  },
+  "JoeanAmier/KS-Downloader": {
+    "n": 129,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:48:50"
+  },
+  "identixone/fastapi_contrib": {
+    "n": 130,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:48:55"
+  },
+  "rennf93/fastapi-guard": {
+    "n": 131,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:49:02"
+  },
+  "hhstore/annotated-py-projects": {
+    "n": 132,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:49:57"
+  },
+  "fief-dev/fief": {
+    "n": 133,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:50:01"
+  },
+  "superboyyy/xianyu_spider": {
+    "n": 134,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:50:03"
+  },
+  "taomujian/linbing": {
+    "n": 135,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:51:50"
+  },
+  "shenhao-stu/ohmycaptcha": {
+    "n": 136,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:51:55"
+  },
+  "iktakahiro/dddpy": {
+    "n": 137,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:51:58"
+  },
+  "mr-fatalyst/oxyde": {
+    "n": 138,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:52:03"
+  },
+  "volfpeter/fasthx": {
+    "n": 139,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:52:06"
+  },
+  "arthurhenrique/cookiecutter-fastapi": {
+    "n": 140,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:52:09"
+  },
+  "fastapiadmin/FastapiAdmin": {
+    "n": 141,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:52:23"
+  },
+  "wuranxu/pity": {
+    "n": 142,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:52:28"
+  },
+  "Lex-au/Orpheus-FastAPI": {
+    "n": 143,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:52:47"
+  },
+  "Shy2593666979/AgentChat": {
+    "n": 144,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:52:51"
+  },
+  "intility/fastapi-azure-auth": {
+    "n": 145,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:52:56"
+  },
+  "talkpython/modern-apis-with-fastapi": {
+    "n": 146,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:52:59"
+  },
+  "GregaVrbancic/fastapi-celery": {
+    "n": 147,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:02"
+  },
+  "mrhan1993/Fooocus-API": {
+    "n": 148,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:12"
+  },
+  "holgi/fastapi-permissions": {
+    "n": 149,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:14"
+  },
+  "judahpaul16/gpt-home": {
+    "n": 150,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:21"
+  },
+  "fim-ai/fim-one": {
+    "n": 151,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:29"
+  },
+  "Nativu5/Gemini-FastAPI": {
+    "n": 152,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:32"
+  },
+  "codemation/easyauth": {
+    "n": 153,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:39"
+  },
+  "microsoft/cookiecutter-spacy-fastapi": {
+    "n": 154,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:42"
+  },
+  "nuglifeleoji/Options-Analytics-Agent": {
+    "n": 155,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:45"
+  },
+  "madkote/fastapi-plugins": {
+    "n": 156,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:48"
+  },
+  "magicyuan876/mineru-tianshu": {
+    "n": 157,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:53:52"
+  },
+  "ScrapeGraphAI/scrapecraft": {
+    "n": 158,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:54:46"
+  },
+  "SthPhoenix/InsightFace-REST": {
+    "n": 159,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:54:53"
+  },
+  "melvinkcx/fastapi-events": {
+    "n": 160,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:54:56"
+  },
+  "tomwojcik/starlette-context": {
+    "n": 161,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:54:59"
+  },
+  "eightBEC/fastapi-ml-skeleton": {
+    "n": 162,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:55:04"
+  },
+  "fastapi/fastapi-cli": {
+    "n": 163,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:55:08"
+  },
+  "iam-abbas/FastAPI-Production-Boilerplate": {
+    "n": 164,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:55:12"
+  },
+  "permitio/fastapi_websocket_pubsub": {
+    "n": 165,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:55:15"
+  },
+  "bakrianoo/mini-rag": {
+    "n": 166,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:55:19"
+  },
+  "daswer123/xtts-api-server": {
+    "n": 167,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:55:25"
+  },
+  "hotosm/tasking-manager": {
+    "n": 168,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:56:13"
+  },
+  "Krukov/cashews": {
+    "n": 169,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:56:17"
+  },
+  "mixmoe/HibiAPI": {
+    "n": 170,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:56:20"
+  },
+  "transmute-app/transmute": {
+    "n": 171,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:59:44"
+  },
+  "rafsaf/minimal-fastapi-postgres-template": {
+    "n": 172,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:59:47"
+  },
+  "testdrivenio/fastapi-crud-async": {
+    "n": 173,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:59:49"
+  },
+  "testdrivenio/fastapi-sqlmodel-alembic": {
+    "n": 174,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:59:51"
+  },
+  "leosussan/fastapi-gino-arq-uvicorn": {
+    "n": 175,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:59:54"
+  },
+  "Youngestdev/fastapi-mongo": {
+    "n": 176,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T20:59:58"
+  },
+  "jujumilk3/fastapi-clean-architecture": {
+    "n": 177,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:01"
+  },
+  "ivan-borovets/fastapi-clean-example": {
+    "n": 178,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:04"
+  },
+  "NicholasGoh/fastapi-mcp-langgraph-template": {
+    "n": 179,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:07"
+  },
+  "Kludex/fastapi-microservices": {
+    "n": 180,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:09"
+  },
+  "emersonfelipesp/netbox-proxbox": {
+    "n": 181,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:15"
+  },
+  "AgentTeam-TaichuAI/ScienceClaw": {
+    "n": 182,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:19"
+  },
+  "grillazz/fastapi-sqlalchemy-asyncpg": {
+    "n": 183,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:26"
+  },
+  "Finrandojin/alexandria-audiobook": {
+    "n": 184,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:29"
+  },
+  "HogaStack/Dash-FastAPI-Admin": {
+    "n": 185,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:38"
+  },
+  "davidefiocco/streamlit-fastapi-model-serving": {
+    "n": 186,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:40"
+  },
+  "Lancetnik/FastDepends": {
+    "n": 187,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:46"
+  },
+  "0xTheProDev/fastapi-clean-example": {
+    "n": 188,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:48"
+  },
+  "asacristani/fastapi-rocket-boilerplate": {
+    "n": 189,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:51"
+  },
+  "wxy2077/fastapi-mysql-generator": {
+    "n": 190,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:00:54"
+  },
+  "Azure-Samples/rag-postgres-openai-python": {
+    "n": 191,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:01:07"
+  },
+  "apocas/restai": {
+    "n": 192,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:01:30"
+  },
+  "GACWR/OpenUBA": {
+    "n": 193,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:01:46"
+  },
+  "kfcx/Streaming-Media-Server-Pro": {
+    "n": 194,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:01:50"
+  },
+  "tomasvotava/fastapi-sso": {
+    "n": 195,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:01:53"
+  },
+  "mrtolkien/fastapi_simple_security": {
+    "n": 196,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:01:58"
+  },
+  "piccolo-orm/piccolo_admin": {
+    "n": 197,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:03"
+  },
+  "Evil0ctal/Fast-Powerful-Whisper-AI-Services-API": {
+    "n": 198,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:06"
+  },
+  "testdrivenio/fastapi-celery": {
+    "n": 199,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:08"
+  },
+  "oinsd/FastAPI-Learning-Example": {
+    "n": 200,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:14"
+  },
+  "tiangolo/full-stack-fastapi-couchbase": {
+    "n": 201,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:17"
+  },
+  "JiayuXu0/FastAPI-Template": {
+    "n": 202,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:20"
+  },
+  "dialoguemd/fastapi-sqla": {
+    "n": 203,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:23"
+  },
+  "allmonday/fastapi-voyager": {
+    "n": 204,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:28"
+  },
+  "NanGePlus/LangGraphChatBot": {
+    "n": 205,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:32"
+  },
+  "benavlabs/crudadmin": {
+    "n": 206,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:37"
+  },
+  "tokusumi/fastapi-cloudauth": {
+    "n": 207,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:40"
+  },
+  "rochacbruno/fastapi-project-template": {
+    "n": 208,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:43"
+  },
+  "tomascupr/sandstorm": {
+    "n": 209,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:46"
+  },
+  "baranbartu/microservices-with-fastapi": {
+    "n": 210,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:49"
+  },
+  "phillipdupuis/pydantic-to-typescript": {
+    "n": 211,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:52"
+  },
+  "dmontagu/fastapi_client": {
+    "n": 212,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:54"
+  },
+  "voxos-ai/bolna": {
+    "n": 213,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:02:59"
+  },
+  "bigsk1/voice-chat-ai": {
+    "n": 214,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:03:08"
+  },
+  "MichielMe/fastscheduler": {
+    "n": 215,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:03:15"
+  },
+  "pyropy/fastapi-socketio": {
+    "n": 216,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:03:17"
+  },
+  "OschAI/VisioFirm": {
+    "n": 217,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:03:39"
+  },
+  "smagafurov/fastapi-jsonrpc": {
+    "n": 218,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:03:42"
+  },
+  "violit-dev/violit": {
+    "n": 219,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:03:47"
+  },
+  "sleepy-project/sleepy": {
+    "n": 220,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:03:55"
+  },
+  "stephenhillier/starlette_exporter": {
+    "n": 221,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:03:57"
+  },
+  "dograh-hq/dograh": {
+    "n": 222,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:04:08"
+  },
+  "hynek/svcs": {
+    "n": 223,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:04:11"
+  },
+  "jod35/fastapi-beyond-CRUD": {
+    "n": 224,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:04:15"
+  },
+  "SearchSavior/OpenArc": {
+    "n": 225,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:04:37"
+  },
+  "offerrall/FuncToWeb": {
+    "n": 226,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:04:41"
+  },
+  "PacktPublishing/Building-Python-Microservices-with-FastAPI": {
+    "n": 227,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:00"
+  },
+  "doganarif/fastapi-radar": {
+    "n": 228,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:09"
+  },
+  "pietrobassi/bunnybook": {
+    "n": 229,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:12"
+  },
+  "visini/abstracting-fastapi-services": {
+    "n": 230,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:14"
+  },
+  "volfpeter/htmy": {
+    "n": 231,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:17"
+  },
+  "amisadmin/fastapi-user-auth": {
+    "n": 232,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:20"
+  },
+  "maldoinc/wireup": {
+    "n": 233,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:24"
+  },
+  "sabuhish/fastapi-mqtt": {
+    "n": 234,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:26"
+  },
+  "koldakov/futuramaapi": {
+    "n": 235,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:38"
+  },
+  "felipeall/transfermarkt-api": {
+    "n": 236,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:41"
+  },
+  "windson/fastapi": {
+    "n": 237,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:44"
+  },
+  "paurakhsharma/python-microservice-fastapi": {
+    "n": 238,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:46"
+  },
+  "baizunxian/zerorunner": {
+    "n": 239,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:51"
+  },
+  "bali-framework/bali": {
+    "n": 240,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:05:54"
+  },
+  "yihong1120/Construction-Hazard-Detection": {
+    "n": 241,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:06:06"
+  },
+  "sunhailin-Leo/fastapi_profiler": {
+    "n": 242,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:06:09"
+  },
+  "rainmanjam/jobspy-api": {
+    "n": 243,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:06:16"
+  },
+  "talkpython/web-applications-with-fastapi-course": {
+    "n": 244,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:06:22"
+  },
+  "Lolomgrofl/fastapi-genesis": {
+    "n": 245,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:06:24"
+  },
+  "codingwithroby/FastAPI-The-Complete-Course": {
+    "n": 246,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:06:27"
+  },
+  "mongodb-developer/mongodb-with-fastapi": {
+    "n": 247,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:06:29"
+  },
+  "airweave-ai/error-monitoring-agent": {
+    "n": 248,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:06:34"
+  },
+  "leonh/redis-streams-fastapi-chat": {
+    "n": 249,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:06:37"
+  },
+  "devnen/Dia-TTS-Server": {
+    "n": 250,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:06:55"
+  },
+  "AtticusZeller/fastapi_supabase_template": {
+    "n": 251,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:00"
+  },
+  "momegas/megabots": {
+    "n": 252,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:02"
+  },
+  "meadsteve/lagom": {
+    "n": 253,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:05"
+  },
+  "PacktPublishing/Building-Data-Science-Applications-with-FastAPI": {
+    "n": 254,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:11"
+  },
+  "teamhide/fastapi-layered-architecture": {
+    "n": 255,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:13"
+  },
+  "agno-agi/agent-api": {
+    "n": 256,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:16"
+  },
+  "vicgalle/gpt-j-api": {
+    "n": 257,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:18"
+  },
+  "maces/fastapi-htmx": {
+    "n": 258,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:22"
+  },
+  "NEONKID/fastapi-ddd-example": {
+    "n": 259,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:25"
+  },
+  "bitfumes/fastapi-course": {
+    "n": 260,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:28"
+  },
+  "hackingthemarkets/stockscreener": {
+    "n": 261,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:30"
+  },
+  "Kabanosk/whisper-website": {
+    "n": 262,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:33"
+  },
+  "china-testing/python_cn_resouce": {
+    "n": 263,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:36"
+  },
+  "Ramseygithub/ai-legal-compliance-assistant": {
+    "n": 264,
+    "status": "ok",
+    "detail": "",
+    "at": "2026-04-28T21:07:38"
+  }
+}

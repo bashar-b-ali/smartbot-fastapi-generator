@@ -1,0 +1,158 @@
+{
+  "repos_total": 263,
+  "repos_by_status": {
+    "permissive": 198,
+    "non_permissive": 20,
+    "no_or_unknown_license": 45
+  },
+  "license_counts": {
+    "MIT": 151,
+    "Apache-2.0": 41,
+    "None": 32,
+    "Unknown": 13,
+    "GPL": 10,
+    "AGPL": 9,
+    "Unlicense": 3,
+    "BSD": 2,
+    "LGPL": 1,
+    "ISC": 1
+  },
+  "files_scanned": 14255,
+  "files_qualified": 330,
+  "repos_with_at_least_one_candidate": 62,
+  "top_repos_by_candidates": [
+    [
+      "0132_hhstore_annotated-py-projects",
+      104
+    ],
+    [
+      "0001_fastapi_fastapi",
+      54
+    ],
+    [
+      "0254_PacktPublishing_Building-Data-Science-Applications-with-FastAPI",
+      21
+    ],
+    [
+      "0195_tomasvotava_fastapi-sso",
+      19
+    ],
+    [
+      "0058_uriyyo_fastapi-pagination",
+      14
+    ],
+    [
+      "0118_IndominusByte_fastapi-jwt-auth",
+      14
+    ],
+    [
+      "0005_fastapi_sqlmodel",
+      13
+    ],
+    [
+      "0081_yezz123_authx",
+      12
+    ],
+    [
+      "0242_sunhailin-Leo_fastapi_profiler",
+      5
+    ],
+    [
+      "0042_fastapiutils_fastapi-utils",
+      3
+    ],
+    [
+      "0113_DeanWay_fastapi-versioning",
+      3
+    ],
+    [
+      "0127_litestar-org_advanced-alchemy",
+      3
+    ],
+    [
+      "0128_mfreeborn_fastapi-sqlalchemy",
+      3
+    ],
+    [
+      "0139_volfpeter_fasthx",
+      3
+    ],
+    [
+      "0228_doganarif_fastapi-radar",
+      3
+    ],
+    [
+      "0008_tadata-org_fastapi_mcp",
+      2
+    ],
+    [
+      "0053_long2ice_fastapi-cache",
+      2
+    ],
+    [
+      "0055_ormar-orm_ormar",
+      2
+    ],
+    [
+      "0072_slackapi_bolt-python",
+      2
+    ],
+    [
+      "0087_developmentseed_titiler",
+      2
+    ],
+    [
+      "0119_maxrdu_fastapi_login",
+      2
+    ],
+    [
+      "0125_long2ice_fastapi-limiter",
+      2
+    ],
+    [
+      "0207_tokusumi_fastapi-cloudauth",
+      2
+    ],
+    [
+      "0243_rainmanjam_jobspy-api",
+      2
+    ],
+    [
+      "0002_mouredev_Hello-Python",
+      1
+    ],
+    [
+      "0004_Zeyi-Lin_HivisionIDPhotos",
+      1
+    ],
+    [
+      "0016_remsky_Kokoro-FastAPI",
+      1
+    ],
+    [
+      "0018_hunvreus_devpush",
+      1
+    ],
+    [
+      "0021_dynaconf_dynaconf",
+      1
+    ],
+    [
+      "0022_JoshuaC215_agent-service-toolkit",
+      1
+    ]
+  ],
+  "thresholds": {
+    "min_lines": 20,
+    "max_lines": 600,
+    "min_routes": 2,
+    "permissive_licenses": [
+      "Apache-2.0",
+      "BSD",
+      "ISC",
+      "MIT",
+      "MPL-2.0",
+      "Unlicense"
+    ]
+  }
+}

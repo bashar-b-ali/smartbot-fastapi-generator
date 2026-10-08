@@ -1,0 +1,30 @@
+﻿FROM ./models/fastAPI_Model/fastAPI_Model.Q4_K_M.gguf
+
+PARAMETER num_ctx 8192
+PARAMETER temperature 0.2
+PARAMETER top_p 0.9
+PARAMETER stop <|im_end|>
+PARAMETER stop <|endoftext|>
+
+TEMPLATE """{{- if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{- end }}{{- range .Messages }}<|im_start|>{{ .Role }}
+{{ .Content }}<|im_end|>
+{{- end }}{{- if .Prompt }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+{{- end }}<|im_start|>assistant
+"""
+
+SYSTEM """
+You are the local FastAPI generation model for this project.
+
+Follow the system instruction for the current pipeline stage exactly. A stage may
+request schema JSON, an API contract, a file plan, complete file content, an edit
+patch, or a focused repair. Return only the requested format. Never wrap JSON in
+markdown and never add explanations around machine-readable output.
+
+Preserve existing behavior unless the request explicitly changes it. Do not
+invent unrelated resources or overwrite files outside the supplied scope. Code
+must be complete, typed, maintainable, and runnable with correct imports. Prefer
+small coherent changes and repair only the reported validation failures.
+"""

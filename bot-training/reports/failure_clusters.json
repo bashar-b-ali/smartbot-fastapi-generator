@@ -1,0 +1,36 @@
+{
+  "clusters": [
+    [
+      "structural_mismatch",
+      2
+    ]
+  ],
+  "clusters_by_task": {
+    "schema_plan": [
+      [
+        "structural_mismatch",
+        1
+      ]
+    ],
+    "api_contract": [
+      [
+        "structural_mismatch",
+        1
+      ]
+    ]
+  },
+  "examples": {
+    "structural_mismatch": [
+      {
+        "task": "schema_plan",
+        "user": "Create a generated FastAPI project named store_api_4081 for Inventory sales API. The API needs orders, order items, and products. Protect resource endpoints with auth. Attach JWT authentication and file upload/download helpers. The generate",
+        "prediction": "{\"domain\":\"Inventory sales API\",\"ddl_sql\":\"CREATE TABLE users (id INTEGER PRIMARY KEY, email VARCHAR(320) NOT NULL UNIQUE, hashed_password VARCHAR(255) NOT NULL, is_active BOOLEAN NOT NULL DEFAULT true); CREATE TABLE orders (id INTEGER PRIMARY KEY, customer_email VARCHAR(255) NOT NULL, status VARCHAR(64) NOT NULL); CREATE TABLE order_items (id INTEGER PRIMARY KEY, order_id INTEGER NOT NULL REFERENCES orders(id), product_id INTEGER NOT NULL REFERENCES products(id), quantity INTEGER NOT NULL); CRE"
+      },
+      {
+        "task": "api_contract",
+        "user": "Expose create and list book endpoints and filter books by title.",
+        "prediction": "{\"summary\":\"Library circulation API\",\"requirements\":[{\"id\":\"R1\",\"description\":\"Expose create and list book endpoints\"},{\"id\":\"R2\",\"description\":\"Filter books by title\"}],\"routes\":[{\"method\":\"POST\",\"path\":\"/books\"},{\"method\":\"GET\",\"path\":\"/books\"},{\"method\":\"POST\",\"path\":\"/borrowers\"},{\"method\":\"GET\",\"path\":\"/borrowers\"}],\"auth\":null,\"websocket_events\":[],\"artifact_contract\":{\"required_routes\":[{\"method\":\"POST\",\"path\":\"/books\"},{\"method\":\"GET\",\"path\":\"/books\"},{\"method\":\"POST\",\"path\":\"/borrowers\""
+      }
+    ]
+  }
+}

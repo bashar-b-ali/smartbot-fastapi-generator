@@ -1,0 +1,105 @@
+{
+  "input_count": 330,
+  "exact_duplicates_removed": 34,
+  "variant_duplicates_removed": 44,
+  "unreadable_dropped": 0,
+  "output_count": 252,
+  "repos_contributing": 62,
+  "top_repos": [
+    [
+      "fastapi/fastapi",
+      43
+    ],
+    [
+      "hhstore/annotated-py-projects",
+      38
+    ],
+    [
+      "PacktPublishing/Building-Data-Science-Applications-with-FastAPI",
+      21
+    ],
+    [
+      "tomasvotava/fastapi-sso",
+      19
+    ],
+    [
+      "uriyyo/fastapi-pagination",
+      14
+    ],
+    [
+      "IndominusByte/fastapi-jwt-auth",
+      14
+    ],
+    [
+      "fastapi/sqlmodel",
+      12
+    ],
+    [
+      "yezz123/authx",
+      12
+    ],
+    [
+      "sunhailin-Leo/fastapi_profiler",
+      5
+    ],
+    [
+      "fastapiutils/fastapi-utils",
+      3
+    ],
+    [
+      "DeanWay/fastapi-versioning",
+      3
+    ],
+    [
+      "litestar-org/advanced-alchemy",
+      3
+    ],
+    [
+      "mfreeborn/fastapi-sqlalchemy",
+      3
+    ],
+    [
+      "volfpeter/fasthx",
+      3
+    ],
+    [
+      "doganarif/fastapi-radar",
+      3
+    ],
+    [
+      "tadata-org/fastapi_mcp",
+      2
+    ],
+    [
+      "long2ice/fastapi-cache",
+      2
+    ],
+    [
+      "ormar-orm/ormar",
+      2
+    ],
+    [
+      "slackapi/bolt-python",
+      2
+    ],
+    [
+      "developmentseed/titiler",
+      2
+    ]
+  ],
+  "by_line_count": {
+    "20-50": 105,
+    "51-100": 85,
+    "101-200": 37,
+    "201-400": 15,
+    "401-600": 10
+  },
+  "by_route_count": {
+    "2": 113,
+    "3": 67,
+    "5": 26,
+    "6-10": 19,
+    "4": 18,
+    "11+": 9
+  }
+}

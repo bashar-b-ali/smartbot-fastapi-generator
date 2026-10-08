@@ -1,0 +1,46 @@
+/node_modules
+/media
+.env
+.static
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/*.json
+/API_ENDPOINTS.md
+/PROJECT_REQUIREMENTS.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+.venv_gen/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.claude/
+
+# Local DB / artifacts
+db.sqlite3
+*.log
+
+# Alembic local
+alembic/versions/__pycache__/
+.ollama-models/
+models/fastAPI_model/*.gguf
+models/fastAPI_model/*.safetensors

@@ -1,0 +1,79 @@
+{
+  "protocol": "runtime-task.v1",
+  "mix": {
+    "available": {
+      "schema_plan": 1592,
+      "api_contract": 1592,
+      "file_plan": 1592,
+      "create_file": 1,
+      "edit_patch": 1
+    },
+    "selected": {
+      "schema_plan": 1592,
+      "api_contract": 1592,
+      "file_plan": 1061,
+      "create_file": 1,
+      "edit_patch": 1
+    },
+    "balanced_stages": [
+      "api_contract",
+      "file_plan",
+      "schema_plan"
+    ],
+    "starved_stages": [
+      "create_file",
+      "edit_patch",
+      "validation_repair"
+    ],
+    "target_weight_pct": {
+      "schema_plan": 15,
+      "api_contract": 15,
+      "file_plan": 10,
+      "create_file": 25,
+      "edit_patch": 25,
+      "validation_repair": 10
+    },
+    "achieved_pct": {
+      "schema_plan": 37.49,
+      "api_contract": 37.49,
+      "file_plan": 24.98,
+      "create_file": 0.02,
+      "edit_patch": 0.02,
+      "validation_repair": 0.0
+    },
+    "weight_debt_pct": {
+      "schema_plan": -22.49,
+      "api_contract": -22.49,
+      "file_plan": -14.98,
+      "create_file": 24.98,
+      "edit_patch": 24.98,
+      "validation_repair": 10.0
+    }
+  },
+  "train_rows": 4247,
+  "eval_rows": 642,
+  "leaked_removed": 729,
+  "seed_records_dropped_as_stale": [
+    {
+      "task": "validation_repair",
+      "line": "6",
+      "reason": "the seed validation_repair answer is patch-shaped, but the stage requires complete file bodies that the seed does not contain"
+    }
+  ],
+  "per_task_train": {
+    "schema_plan": 1592,
+    "api_contract": 1592,
+    "file_plan": 1061,
+    "create_file": 1,
+    "edit_patch": 1,
+    "validation_repair": 0
+  },
+  "per_task_eval": {
+    "schema_plan": 185,
+    "api_contract": 185,
+    "file_plan": 272,
+    "create_file": 0,
+    "edit_patch": 0,
+    "validation_repair": 0
+  }
+}

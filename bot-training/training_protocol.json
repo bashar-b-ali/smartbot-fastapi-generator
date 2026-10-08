@@ -1,0 +1,20 @@
+{
+  "version": "runtime-task.v1",
+  "runtime_contract": "project-run.v1",
+  "context_window": 8192,
+  "tasks": {
+    "schema_plan": {"output": "json", "weight": 15},
+    "api_contract": {"output": "json", "weight": 15},
+    "file_plan": {"output": "json", "weight": 10},
+    "create_file": {"output": "json", "weight": 25},
+    "edit_patch": {"output": "json", "weight": 25},
+    "validation_repair": {"output": "json", "weight": 10}
+  },
+  "rules": [
+    "Return only the format requested by the stage system message.",
+    "Preserve files and behavior outside the explicit change scope.",
+    "Never use placeholders, TODOs, or omitted code.",
+    "Treat syntax and runtime failures as hard gates.",
+    "Treat incomplete inferred artifacts as repair guidance, not permission to erase prior work."
+  ]
+}

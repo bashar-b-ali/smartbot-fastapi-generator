@@ -1,0 +1,309 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --surface:        255 255 255;
+    --surface-muted:  248 250 252;
+    --surface-raised: 255 255 255;
+
+    --ink:           17 24 39;
+    --ink-muted:     71 85 105;
+    --ink-subtle:    148 163 184;
+    --ink-inverted:  255 255 255;
+
+    --line:          226 232 240;
+    --line-strong:   203 213 225;
+  }
+
+  .dark {
+    --surface:        15 23 42;
+    --surface-muted:  2 6 23;
+    --surface-raised: 30 41 59;
+
+    --ink:           241 245 249;
+    --ink-muted:     203 213 225;
+    --ink-subtle:    148 163 184;
+    --ink-inverted:  15 23 42;
+
+    --line:          51 65 85;
+    --line-strong:   71 85 105;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html, body, #root { height: 100%; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    color: rgb(var(--ink));
+    background-color: rgb(var(--surface-muted));
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "ss01";
+    overflow-x: hidden;
+    overscroll-behavior-y: none;
+  }
+
+  button, input, textarea, select {
+    font: inherit;
+  }
+
+  /* Default button-like elements get a smooth easing baseline. */
+  button, [role="button"], a {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+
+  *:focus-visible {
+    outline: none;
+    box-shadow:
+      0 0 0 2px rgb(var(--surface)),
+      0 0 0 4px rgb(58 99 245 / 0.55);
+    border-radius: 0.375rem;
+    transition: box-shadow 0.15s ease;
+  }
+
+  button:focus { outline: none; }
+
+  ::selection {
+    background-color: rgb(58 99 245 / 0.28);
+    color: rgb(var(--ink));
+  }
+
+  /* Native scrollbar tuned to match the design system. */
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  *::-webkit-scrollbar-thumb {
+    background: rgb(var(--line-strong) / 0.6);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+    transition: background 0.2s ease;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--line-strong));
+    background-clip: content-box;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .glass {
+    background: rgb(var(--surface) / 0.72);
+    backdrop-filter: saturate(160%) blur(14px);
+    -webkit-backdrop-filter: saturate(160%) blur(14px);
+  }
+
+  .glass-strong {
+    background: rgb(var(--surface) / 0.85);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+  }
+
+  .scrollbar-fancy::-webkit-scrollbar      { width: 8px; height: 8px; }
+  .scrollbar-fancy::-webkit-scrollbar-track{ background: transparent; }
+  .scrollbar-fancy::-webkit-scrollbar-thumb{
+    background: rgb(var(--line-strong) / 0.7);
+    border-radius: 999px;
+  }
+  .scrollbar-fancy::-webkit-scrollbar-thumb:hover{
+    background: rgb(var(--line-strong));
+  }
+  .scrollbar-fancy {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(var(--line-strong) / 0.8) transparent;
+  }
+
+  /* Skeleton shimmer with a smoother, softer gradient. */
+  .skeleton {
+    position: relative;
+    overflow: hidden;
+    background: rgb(var(--line) / 0.55);
+    border-radius: 0.5rem;
+  }
+  .skeleton::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      rgb(var(--line-strong) / 0.45) 45%,
+      rgb(var(--line-strong) / 0.65) 50%,
+      rgb(var(--line-strong) / 0.45) 55%,
+      transparent 100%
+    );
+    transform: translateX(-100%);
+    animation: skeletonSweep 1.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  }
+  @keyframes skeletonSweep {
+    100% { transform: translateX(100%); }
+  }
+
+  /* Reusable lift utility for hoverable cards/tiles. Pairs well with framer-motion
+     whileHover, but is also nice as a plain CSS fallback. */
+  .lift {
+    transition:
+      transform 350ms cubic-bezier(0.16, 1, 0.3, 1),
+      box-shadow 350ms cubic-bezier(0.16, 1, 0.3, 1),
+      border-color 200ms ease;
+    will-change: transform;
+  }
+  .lift:hover {
+    transform: translateY(-2px);
+  }
+
+  @media (hover: none) {
+    .lift:hover {
+      transform: none;
+    }
+  }
+  .chat-pipeline-pending {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 2px;
+    color: #f97316;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
+  .chat-pipeline-pending__dots {
+    display: inline-flex;
+    width: 1.1em;
+    justify-content: space-between;
+    margin-left: 1px;
+  }
+
+  .chat-pipeline-pending__dots span {
+    display: inline-block;
+    animation: chatPendingDotJump 1.05s ease-in-out infinite;
+    opacity: 0.62;
+    transform: translateY(0);
+  }
+
+  .chat-pipeline-pending__dots span:nth-child(2) {
+    animation-delay: 0.14s;
+  }
+
+  .chat-pipeline-pending__dots span:nth-child(3) {
+    animation-delay: 0.28s;
+  }
+
+  @keyframes chatPendingDotJump {
+    0%, 80%, 100% {
+      opacity: 0.62;
+      transform: translateY(0);
+    }
+    40% {
+      opacity: 1;
+      transform: translateY(-0.32em);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .chat-pipeline-pending__dots span {
+      animation: none;
+      opacity: 1;
+    }
+  }
+
+  /* A premium, animated gradient border. Use on hero CTAs / highlight cards. */
+  .gradient-border {
+    position: relative;
+    isolation: isolate;
+  }
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, #3a63f5, #d946ef, #38bdf8, #3a63f5);
+    background-size: 300% 300%;
+    animation: gradientShift 8s ease-in-out infinite;
+    -webkit-mask:
+      linear-gradient(#000 0 0) content-box,
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    pointer-events: none;
+    z-index: -1;
+  }
+  @keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50%      { background-position: 100% 50%; }
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image: var(--tw-gradient);
+  }
+
+  /* Smooth, hardware-accelerated transitions for the common interactive props. */
+  .transition-smooth {
+    transition-property: transform, box-shadow, background-color, border-color, color, opacity, filter;
+    transition-duration: 320ms;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .transition-flow {
+    transition-property: transform, opacity, box-shadow, background-color, border-color, color, filter;
+    transition-duration: 420ms;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .safe-bottom {
+    padding-bottom: max(env(safe-area-inset-bottom), 0px);
+  }
+
+  .safe-bottom-3 {
+    padding-bottom: max(env(safe-area-inset-bottom), 0.75rem);
+  }
+
+  /* Keep transforms on the GPU compositor for snappier hover/tap. */
+  .gpu {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+
+  /* Subtle text gradient for hero headlines. */
+  .text-gradient {
+    background: linear-gradient(120deg, rgb(var(--ink)) 0%, rgb(var(--ink-muted)) 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+  }
+  .text-gradient-brand {
+    background: linear-gradient(120deg, #3a63f5 0%, #d946ef 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+  }
+}

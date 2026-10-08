@@ -1,0 +1,22 @@
+﻿{
+  "model_name": "fastAPI_Model",
+  "artifact": "models/fastAPI_Model/fastAPI_Model.Q4_K_M.gguf",
+  "artifact_size_bytes": 1929903072,
+  "sha256": "4A188102020E9C9530B687FD6400F775C45E90A0D7BAAFE65BD0A36963FBB7BA",
+  "base_family": "Qwen2.5 Coder",
+  "parameter_class": "3B",
+  "quantization": "Q4_K_M",
+  "ollama_context": 8192,
+  "runtime_contract": "project-run.v1",
+  "training_protocol": "runtime-task.v1",
+  "fine_tuned": false,
+  "training_status": "Base Qwen2.5 Coder artifact packaged with a runtime-specific Modelfile; retraining is required for runtime-task.v1 weights.",
+  "modelfile": "Modelfile.fastAPI_Model",
+  "setup_script": "setup_fastAPI_Model.ps1",
+  "backend_env": {
+    "LLM_PROVIDER": "ollama",
+    "LLM_MODEL": "fastAPI_Model",
+    "OLLAMA_NUM_CTX": "8192",
+    "OLLAMA_AUTO_PULL": "false"
+  }
+}
